@@ -1,4 +1,8 @@
 import streamlit
-streamlit.title('This is my demo app')
-streamlit.title('category')
-streamlit.title('Education')
+streamlit.title('My Company')
+streamlit.header('Departments')
+streamlit.text('IT')
+streamlit.text('FINANCE')
+streamlit.text('HR')
+streamlit.text('RESEARCH')
+streamlit.text('SECURITY')
