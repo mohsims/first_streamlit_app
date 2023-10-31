@@ -1,8 +1,5 @@
 import streamlit
-streamlit.title('My Company')
-streamlit.header('Departments')
-streamlit.text('IT')
-streamlit.text('FINANCE')
-streamlit.text('HR')
-streamlit.text('RESEARCH')
-streamlit.text('SECURITY')
+streamlit.header('Breakfast Menu')
+streamlit.text('Omega 3 & Blueberry Oatmeal')
+streamlit.text('Kale, Spinach & Rocket Smoothie')
+streamlit.text('Hard-Boiled Free-Range Egg')
