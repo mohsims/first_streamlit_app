@@ -39,7 +39,7 @@ try:
 except URLError as e:
     streamlit.error()
 
-streamlit.stop()
+#streamlit.stop()
 
 #new changes
 streamlit.header("The Fruit load list contains:")
