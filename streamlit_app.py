@@ -39,7 +39,7 @@ try:
 except URLError as e:
     streamlit.error()
 
-#streamlit.stop()
+
 
 #new changes
 streamlit.header("The Fruit load list contains:")
@@ -59,3 +59,4 @@ add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfru
 streamlit.write('Thanks for adding ', add_my_fruit)
 
 my_cur.execute("insert into FRUIT_LOAD_LIST values ('from streamlit')")
+#streamlit.stop()
